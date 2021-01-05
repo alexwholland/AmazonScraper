@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 
-URL = 'amazon.com/'                                 # Enter your amazon link
+URL = 'amazon.ca/'                                 # Enter your amazon link
 PRICE_VALUE = 1000                                  # Enter the desired product price
 SENDING_EMAIL = 'sendingaccount@gmail.com'          # Email that your want to create the notification
 SENDING_EMAIL_PASSWORD = 'password'                 # Sending email's password
